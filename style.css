@@ -1,0 +1,206 @@
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Nav bar styling*/
+
+.Logo{
+    width: 72px;
+    height: auto;
+}
+
+nav{
+    /*Padding*/
+    padding: 20px 40px;
+    
+    
+    /* Space Between */
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: sticky;
+    top: 0%;
+
+    background-color: white;
+}
+
+.nav_link{
+    display: flex;
+    gap: 24px;
+}
+
+.nav_link a{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+/* Hero styling*/
+
+.Hero_container{
+    background: url('Hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 100%;
+    
+    /* Content inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Hero_text{
+    text-align: center;
+}
+
+.Hero_container h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.Hero_container button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 16px;
+
+    font-size: 12px;
+    background-color: #6B58F0;
+    color: white;
+    cursor: pointer;
+}
+
+/* Job Opening */
+
+.Job_container{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FCFCFD;
+
+    gap: 32px;
+}
+
+.Top_part{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.Filter_stack{
+    display: flex;
+    gap: 12px;
+
+    width: 100%;
+    text-align: center;
+}
+
+.filter{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    min-width: 130px;
+    justify-content: space-between;
+    padding: 2px 16px;
+
+    background-color: white;
+    border: solid #EBEDEF;
+    border-width: 1px;
+    border-radius: 32px;
+
+}
+
+.filter img{
+    width: 24px;
+    height: 24px;
+}
+
+.filter p{
+    font-size: 12px;
+    color: #5E6978;
+}
+
+.search{
+    width: 100%;
+}
+
+.search p{
+    width: 100%;
+    text-align: left;
+}
+
+
+/* Bottom Part */
+
+.Lower_part{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.department p{
+    margin: 0;
+}
+
+.job_cards{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card{
+    padding: 16px;
+    width: 360px;
+    border: solid #EBEDEF;
+    border-width: 1px;
+    border-radius: 6px;
+}
+
+.name{
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+}
+
+.name h3{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.name p{
+    margin: 0;
+    font-size: 12px;
+    color: #5E6978;
+}
+
+
+.details{
+    display: flex;
+    gap: 8px;
+    padding-top: 8px;
+    height: auto;
+}
+
+.details p{
+    margin: 0;
+    font-size: 12px;
+    color: #5E6978;
+}
