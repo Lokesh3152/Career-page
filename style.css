@@ -167,11 +167,23 @@ nav{
 
 .card{
     padding: 16px;
-    width: 360px;
+    width: 359px;
     border: solid #EBEDEF;
     border-width: 1px;
     border-radius: 6px;
+    cursor: pointer;
 }
+
+.card:hover{
+    border: solid #D6BBFB;
+    color: #7F56D9;
+}
+.name:hover h3{
+
+    color: #7F56D9;
+}
+
+
 
 .name{
     display: flex;
