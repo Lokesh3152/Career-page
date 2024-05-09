@@ -191,6 +191,7 @@ nav {
   border-width: 1.4px;
   border-radius: 6px;
   cursor: pointer;
+  background-color: white;
 }
 
 .card:hover {
